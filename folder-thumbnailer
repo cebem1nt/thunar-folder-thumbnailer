@@ -21,7 +21,7 @@ fi
 
 mkdir -p "$CUSTOM_DIR"
 
-covers=("$CUSTOM_DIR"/"$ID".{jpg,png,svg} "$INPUT_FILE_NAME"/{.,}{folder,cover}.{jpg,png,svg})
+covers=("$CUSTOM_DIR"/"$ID".{jpg,png,svg} "$INPUT_FILE_NAME"/{.,}{folder,cover,Cover}.{jpg,png,svg})
 
 for file in "${covers[@]}"; do
 	if [[ -f "$file" ]]; then
